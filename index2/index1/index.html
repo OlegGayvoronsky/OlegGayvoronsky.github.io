@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <title>Мой сайт</title>
+    </head>
+    <body>
+      <p id="page-fragment1"></p>
+      <ol>
+          <li><a href="http://example.com/"> абсолютная гиперссылка на главную страницу сайта example.com; </a></li>
+          <li><a href="https://example.com/"> абсолютная гиперссылка на главную страницу сайта example.com в протоколе https; </a></li>
+          <li><a href="ftp://ftp.intel.com/"> ссылка на файл на сервере FTP без авторизации;; </a></li>
+          <li><a href="ftp://user:password@ftp.intel.com/"> ссылку на файл на сервере FTP с авторизацией; </a></li>
+          <li><a href="https://kubsu.ru/ru/fktipm/prikladnaya-matematika-i-informatika-matematicheskoe-i-informacionnoe-obespechenie#region-footer-third"> ссылка на фрагмент страницы некоторого сайта; </a></li>
+          <li><a href="#page-fragment2"> ссылка на фрагмент текущей страницы; </a></li>
+          <li><a href="http://example.com?a&b"> ссылка с двумя параметрами в URL; </a></li>
+          <li>
+              <ul>
+                  <li><a href="#page-fragment1" title="переход к началу списка ссылок"> ссылка на список ссылок; </a></li>
+                  <li><a href="#page-fragment2" title="переход к началу формы"> ссылка на форму; </a></li>
+              </ul>
+          </li>
+          <li><a>http://example.com/</a></li>
+          <li><a href=""> ссылка с пустым href; </a></li>
+          <li><a href="https://example.com/" rel="nofollow">  ссылка, по которой запрещен переход поисковикам; </a></li>
+          <li>
+            <a href="http://example.com/" contenteditable="noindex"> ссылка, запрещенная для индексации поисковиками; </a>
+          </li>
+          <li><p> <a href="https://kubsu.ru/">Кубанский государственный университет</a> — высшее учебное заведение в Краснодаре. Является одним из крупнейших и старейших университетов юга России.</p></li>
+          <li><a href="https://www.google.ru/search?q=flower&newwindow=1&sxsrf=ALiCzsYpZ3jkaBtsX8lY-1p-BK6-nGfhjQ%3A1662658907645&ei=WykaY9n-JsWMxc8PiJGR2Ao&ved=0ahUKEwiZmMqM34X6AhVFRvEDHYhIBKsQ4dUDCA4&uact=5&oq=flower&gs_lcp=Cgdnd3Mtd2l6EAMyCggAELEDEIMBEEMyBAgAEEMyBAgAEEMyBQgAEIAEMg4ILhCABBDHARCvARDUAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCC4QgAQyBQgAEIAEOgoIABBHENYEELADOgcIABCwAxBDOgwILhDIAxCwAxBDGAE6DwguENQCEMgDELADEEMYAToSCC4QxwEQ0QMQyAMQsAMQQxgBSgQIQRgASgQIRhgBULYFWLYFYLYLaAFwAXgAgAF8iAF8kgEDMC4xmAEAoAEByAEUwAEB2gEGCAEQARgI&sclient=gws-wiz"><img src="image.jpg" alt="flower"></a></li>
+          <li>
+            <img src="tree.jpg" alt="tree" usemap="#tr">
+            <map name="tr">
+              <area shape="poly" coords="304,149,285,180,305,240,351,218,324,177,311,154,307,152" href="https://yandex.ru/search/?text=%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE&lr=121542&clid=2411726&src=suggest_B" alt="tree">
+            </map>
+          </li>
+          <li><a href="./page1.html"> относительная на страницу в текущем каталоге; </a></li>
+          <li><a href="./about/page0.html"> относительная на страницу в каталоге about; </a></li>
+          <li><a href="../page2.html"> относительная на страницу в каталоге уровнем выше текущего;  </a></li>
+          <li><a href="../../page3.html"> относительная на страницу в каталоге двумя уровнями выше; </a></li>
+          <li><a href="index.html"> сокращенная на главную; </a></li>
+          <li><a href="./about/page0.html"> сокращенная ссылка на внутреннюю. </a></li>
+      </ol>
+
+      <p id="page-fragment2"></p>
+      <form action="/" method="POST">
+
+              <label>
+                Имя:<br>
+                <input name="field-name" value="Имя">
+              </label><br>
+        
+              <label>
+                e-mail:<br>
+                <input name="field-email" type="email" placeholder="Введите вашу почту">
+              </label><br>
+        
+              <label>
+                дата рождения:<br>
+                <input name="field-date" value="2022-09-09" type="date">
+              </label><br>
+        
+              Пол:<br>
+              <label><input type="radio" name="radio-group-1" value="Male">
+                Мужчина</label>
+              <label><input type="radio" name="radio-group-1" value="Female">
+                Женщина</label><br>
+
+              Количество конечностей:<br> 
+              <label><input type="radio" name="radio-group-1" value="1">
+                1</label> 
+              <label><input type="radio" name="radio-group-1" value="2">
+                2</label>
+              <label><input type="radio" name="radio-group-1" value="3">
+                3</label>
+              <label><input type="radio" name="radio-group-1" value="4">
+                4</label><br>
+                
+              <label>
+                Сверхспособности:<br>
+                <select name="power" multiple="multiple">
+                  <option value="Значение1">Бессмертие</option>
+                  <option value="Значение2">Прохождение сквозь стены</option>
+                  <option value="Значение3">Левитация</option>
+                </select>
+              </label><br>
+
+              <label>
+                Биография:<br>
+                <textarea name="biografy"></textarea>
+              </label><br>
+
+              <label><input type="checkbox" name="check-1">
+                С контрактом ознакомлен(а)</label><br>
+  
+              <input type="submit" value="Отправить">
+      </form>
+  </body>
+</html>
