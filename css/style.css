@@ -1,0 +1,96 @@
+#hat { 
+    height:120px;
+    background-color: #033761;
+}
+
+#logo {
+    margin-left: 24.6%;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#text {
+    font-size: 30pt;
+    font-family: "Courier New", monotype;
+    line-height: 250%;
+    color: #F9F4CF;
+}
+
+#menu {
+    margin: 15px;
+    width: 960px;
+    background-color: #033761;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 250%;
+}
+
+#menu a{
+    color: #F9F4CF;
+}
+
+#link2{
+    margin-left: 40%;
+}
+
+#link3{
+    margin-left: 44%;
+}
+
+#links {
+    background-color: #033761;
+    margin-right: auto;
+    margin-left: auto;
+    width: 922px;
+    color: aqua;
+}
+
+ol a {
+    color: #F9F4CF;
+}
+
+#table{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+}
+
+.honest{
+    color: #F9F4CF;
+    background-color: #033761;
+}
+
+.odd{
+    color: #033761;
+    background-color: #F9F4CF;
+}
+
+#form {
+    background-color: #033761;
+    color: aqua;
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+}
+
+input {
+    background-color:#F9F4CF;
+}
+
+select {
+    background-color:#F9F4CF;
+}
+
+textarea {
+    background-color:#F9F4CF;
+}
+
+footer{
+    font-size: 30pt;
+    background-color: #033761;
+    color: #F9F4CF;
+    font-family: "Courier New", monotype;
+}

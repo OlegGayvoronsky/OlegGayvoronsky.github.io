@@ -2,11 +2,23 @@
 
 <html lang="ru">
     <head>
-        <title>Мой сайт</title>
+        <title>Слон ест луну</title>
+        <link rel="stylesheet" href="../../css/style.css">
     </head>
     <body>
+      <header id="hat">
+        <img id="logo" src="../../image/logo1.png" alt="Наш лого">
+        <div id="text">Слон ест луну</div>
+      </header>
+
+      <nav id="menu">
+        <a href="#menu">Mеню</a>
+        <a id="link2" href="#page-table2">Таблица</a>
+        <a id="link3" href="#page-fragment2">Форма</a>
+      </nav>
+
       <p id="page-fragment1"></p>
-      <ol>
+      <ol id="links">
           <li><a href="http://example.com/"> абсолютная гиперссылка на главную страницу сайта example.com; </a></li>
           <li><a href="https://example.com/"> абсолютная гиперссылка на главную страницу сайта example.com в протоколе https; </a></li>
           <li><a href="ftp://ftp.olex.no/pub/AEC-6860.pdf"> ссылка на файл на сервере FTP без авторизации; </a></li>
@@ -29,9 +41,9 @@
           </li>
           <!--noindex-->
           <li><p> <a href="https://kubsu.ru/">Кубанский государственный университет</a> — высшее учебное заведение в Краснодаре. Является одним из крупнейших и старейших университетов юга России.</p></li>
-          <li><a href="https://www.google.ru/search?q=flower&newwindow=1&sxsrf=ALiCzsYpZ3jkaBtsX8lY-1p-BK6-nGfhjQ%3A1662658907645&ei=WykaY9n-JsWMxc8PiJGR2Ao&ved=0ahUKEwiZmMqM34X6AhVFRvEDHYhIBKsQ4dUDCA4&uact=5&oq=flower&gs_lcp=Cgdnd3Mtd2l6EAMyCggAELEDEIMBEEMyBAgAEEMyBAgAEEMyBQgAEIAEMg4ILhCABBDHARCvARDUAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCC4QgAQyBQgAEIAEOgoIABBHENYEELADOgcIABCwAxBDOgwILhDIAxCwAxBDGAE6DwguENQCEMgDELADEEMYAToSCC4QxwEQ0QMQyAMQsAMQQxgBSgQIQRgASgQIRhgBULYFWLYFYLYLaAFwAXgAgAF8iAF8kgEDMC4xmAEAoAEByAEUwAEB2gEGCAEQARgI&sclient=gws-wiz"><img src="image.jpg" alt="flower"></a></li>
+          <li><a href="https://www.google.ru/search?q=flower&newwindow=1&sxsrf=ALiCzsYpZ3jkaBtsX8lY-1p-BK6-nGfhjQ%3A1662658907645&ei=WykaY9n-JsWMxc8PiJGR2Ao&ved=0ahUKEwiZmMqM34X6AhVFRvEDHYhIBKsQ4dUDCA4&uact=5&oq=flower&gs_lcp=Cgdnd3Mtd2l6EAMyCggAELEDEIMBEEMyBAgAEEMyBAgAEEMyBQgAEIAEMg4ILhCABBDHARCvARDUAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCC4QgAQyBQgAEIAEOgoIABBHENYEELADOgcIABCwAxBDOgwILhDIAxCwAxBDGAE6DwguENQCEMgDELADEEMYAToSCC4QxwEQ0QMQyAMQsAMQQxgBSgQIQRgASgQIRhgBULYFWLYFYLYLaAFwAXgAgAF8iAF8kgEDMC4xmAEAoAEByAEUwAEB2gEGCAEQARgI&sclient=gws-wiz"><img src="../../image/image.jpg" alt="flower"></a></li>
           <li>
-            <img src="tree.jpg" alt="tree" usemap="#tr">
+            <img src="../../image/tree.jpg" alt="tree" usemap="#tr">
             <map name="tr">
               <area shape="poly" coords="304,149,285,180,305,240,351,218,324,177,311,154,307,152" href="https://yandex.ru/search/?text=%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE&lr=121542&clid=2411726&src=suggest_B" alt="tree">
             </map>
@@ -43,9 +55,38 @@
           <li><a href="index.html"> сокращенная на главную; </a></li>
           <li><a href="./about/page0.html"> сокращенная ссылка на внутреннюю. </a></li>
       </ol>
-
+  
+      <p id="page-table2"></p>
+      <table id="table">
+        <tbody>
+          <tr class="honest">
+            <th>Ячейка 1.1</th>
+            <th>Ячейка 1.2</th>
+            <th>Ячейка 1.3</th>
+          </tr>
+          <tr class="odd">
+            <td id="csp" colspan="3">Объединенная ячейка</td>
+          </tr>
+          <tr class="honest">
+            <td>Ячейка 3.1</td>
+            <td>Ячейка 3.2</td>
+            <td>Ячейка 3.3</td>
+          </tr>
+          <tr class="odd">
+            <td>Ячейка 4.1</td>
+            <td>Ячейка 4.2</td>
+            <td>Ячейка 4.3</td>
+          </tr>
+          <tr class="honest">
+            <td>Ячейка 5.1</td>
+            <td>Ячейка 5.2</td>
+            <td>Ячейка 5.3</td>
+          </tr>
+        </tbody>
+      </table>
+      
       <p id="page-fragment2"></p>
-      <form action="/" method="POST">
+      <form id="form" action="/" method="POST">
 
               <label>
                 Имя:<br>
@@ -97,5 +138,10 @@
   
               <input type="submit" value="Отправить">
       </form>
+
+      <footer>
+        (c) Олег Гайворонский 2022
+      </footer>
+
   </body>
 </html>
