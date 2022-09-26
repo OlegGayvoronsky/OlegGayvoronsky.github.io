@@ -26,13 +26,16 @@ body {
 }
 
 #menu {
+    font-family: "Impact", Haettenschweiler;
+    font-size: 20px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items:centr;
     order: 0;
     width: auto;
     background-color: #033761;
-    height: 110px;
+    height: 200px;
     line-height: 250%;
 }
 
@@ -42,7 +45,6 @@ body {
 
 
 #links {
-    margin: 0%;
     list-style-type: none;
     order: 0;
     background-color: #033761;
@@ -130,16 +132,16 @@ footer{
 }
 
 #xXx{
-    margin: 5px;
+    margin: 15px;
 }
 
 @media screen and (min-width: 1000px) {
     #menu {
+        font-size: 16px;
         display: flex;
         flex-direction: row;
         justify-content:space-around;
         order: 0;
-        margin: 0.5%;
         width: 956px;
         height: 30px;
         margin-right: auto;
@@ -163,7 +165,6 @@ footer{
     
     #table{
         height: 200px;
-        margin: 0.5%;
         order: 0;
         text-align: center;
         margin-right: auto;
@@ -175,5 +176,9 @@ footer{
         margin-right: auto;
         margin-left: auto;
         width: 960px;
+    }
+
+    #xXx{
+        margin: 5px;
     }
 }
