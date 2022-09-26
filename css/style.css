@@ -26,14 +26,14 @@ body {
 }
 
 #menu {
+    margin:1%;
     display: flex;
     flex-direction: column;
     align-items:centr;
-    align-items: stretch;
     order: 0;
     width: auto;
     background-color: #033761;
-    height: 30px;
+    height: 50px;
     line-height: 250%;
 }
 
@@ -43,6 +43,7 @@ body {
 
 
 #links {
+    margin: 0%;
     list-style-type: none;
     order: 0;
     background-color: #033761;
@@ -66,6 +67,7 @@ ol p {
 }
 
 #table{
+    margin: 1%;
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
     height: 500px;
@@ -87,11 +89,12 @@ ol p {
 #form {
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
-    height: 600px;
+    height: 650px;
     order: 0;
     background-color: #033761;
     color: aqua;
     width: auto;
+    margin: 0%;
 }
 
 input {
@@ -128,6 +131,10 @@ footer{
     font-family: "Courier New", monotype;
 }
 
+#xXx{
+    margin: 5px;
+}
+
 @media screen and (min-width: 1000px) {
     #menu {
         display: flex;
@@ -136,7 +143,6 @@ footer{
         order: 0;
         margin: 0.5%;
         width: 956px;
-        background-color: #033761;
         height: 30px;
         margin-right: auto;
         margin-left: auto;
@@ -152,13 +158,9 @@ footer{
     }
     
     #links {
-        margin: 0%;
-        order: 0;
-        background-color: #033761;
         margin-right: auto;
         margin-left: auto;
         width: 916px;
-        color: aqua;
     }
     
     #table{
@@ -172,17 +174,8 @@ footer{
     }
     
     #form {
-        height: 650px;
-        margin: 0%;
-        order: 0;
-        background-color: #033761;
-        color: aqua;
         margin-right: auto;
         margin-left: auto;
         width: 960px;
-    }
-
-    #xXx{
-        margin: 3.367px;
     }
 }
