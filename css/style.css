@@ -26,9 +26,9 @@ body {
 }
 
 #menu {
-    justify-content:space-around;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content:space-around;
     order: 0;
     width: auto;
     background-color: #033761;
@@ -67,6 +67,7 @@ ol p {
 }
 
 #table{
+    height: 500px;
     order: 1;
     text-align: center;
     width: auto;
@@ -83,6 +84,7 @@ ol p {
 }
 
 #form {
+    height: 500px;
     order: 0;
     background-color: #033761;
     color: aqua;
