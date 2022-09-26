@@ -4,10 +4,9 @@
 }
 
 body {
-    justify-content: center;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     background-color: #0A162B;
 }
 
@@ -28,7 +27,7 @@ body {
 #menu {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    align-items:centr;
     order: 0;
     width: auto;
     background-color: #033761;
@@ -42,6 +41,7 @@ body {
 
 
 #links {
+    list-style-type: none;
     order: 0;
     background-color: #033761;
     width: auto;
@@ -52,6 +52,10 @@ ol a {
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
     color: #F9F4CF;
+}
+
+ol li {
+    margin: 15px;
 }
 
 ol p {
@@ -81,7 +85,7 @@ ol p {
 #form {
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
-    height: 500px;
+    height: 600px;
     order: 0;
     background-color: #033761;
     color: aqua;
@@ -89,6 +93,7 @@ ol p {
 }
 
 input {
+    height: 50px;
     background-color:#F9F4CF;
 }
  
@@ -114,7 +119,6 @@ textarea {
 
 footer{
     display: flex;
-    flex-direction: column;
     order: 1;
     font-size: 30pt;
     background-color: #033761;
@@ -123,33 +127,10 @@ footer{
 }
 
 @media screen and (min-width: 1000px) {
-    #hat { 
-        height:120px;
-        background-color: #033761;
+    #hat{
+        width: 100%;
     }
-    
-    body {
-        margin: 0%;
-        display: flex;
-        flex-direction: column;
-        background-color: #0A162B;
-    }
-    
-    #logo {
-        margin-left: 24.7%;
-        width: 100px;
-        height: 100px;
-        float: left;
-    }
-    
-    #text {
-        font-size: 30pt;
-        font-family: "Courier New", monotype;
-        line-height: 250%;
-        color: #F9F4CF;
-    }
-    
-    
+
     #menu {
         display: flex;
         flex-direction: row;
@@ -163,11 +144,7 @@ footer{
         margin-left: auto;
         line-height: 250%;
     }
-    
-    #menu a{
-        color: #F9F4CF;
-    }
-    
+      
     #link2{
         margin-left: 40%;
     }
@@ -186,10 +163,6 @@ footer{
         color: aqua;
     }
     
-    ol li {
-        margin: 15px;
-    }
-    
     #table{
         height: 200px;
         margin: 0.5%;
@@ -200,21 +173,8 @@ footer{
         width: 960px;
     }
     
-    .honest{
-        color: #F9F4CF;
-        background-color: #033761;
-    }
-    
-    .odd{
-        color: #033761;
-        background-color: #F9F4CF;
-    }
-    
     #form {
-        display: flex;
-        flex-direction: row;
-        justify-content:space-around;
-        height: 450px;
+        height: 650px;
         margin: 0%;
         order: 0;
         background-color: #033761;
@@ -224,23 +184,8 @@ footer{
         width: 960px;
     }
     
-    input {
-        background-color:#F9F4CF;
-    }
-    
-    select {
-        background-color:#F9F4CF;
-    }
-    
-    textarea {
-        background-color:#F9F4CF;
-    }
-    
     footer{
-        font-size: 30pt;
-        background-color: #033761;
-        color: #F9F4CF;
-        font-family: "Courier New", monotype;
+        width: 100%;
     }
 
     #xXx{
