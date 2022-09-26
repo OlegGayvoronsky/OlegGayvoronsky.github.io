@@ -40,13 +40,6 @@ body {
     color: #F9F4CF;
 }
 
-#link2{
-    margin-left: 40%;
-}
-
-#link3{
-    margin-left: 44%;
-}
 
 #links {
     order: 0;
@@ -218,6 +211,9 @@ footer{
     }
     
     #form {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
         height: 450px;
         margin: 0%;
         order: 0;
