@@ -85,7 +85,7 @@ ol p {
 
 #form {
     height: 500px;
-    order: -1;
+    order: 0;
     background-color: #033761;
     color: aqua;
     width: auto;
@@ -125,7 +125,7 @@ footer{
     font-family: "Courier New", monotype;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     #hat { 
         height:120px;
         background-color: #033761;
