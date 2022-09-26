@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-items: stretch;
     background-color: #0A162B;
 }
 
@@ -28,6 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items:centr;
+    align-items: stretch;
     order: 0;
     width: auto;
     background-color: #033761;
@@ -127,10 +129,6 @@ footer{
 }
 
 @media screen and (min-width: 1000px) {
-    #hat{
-        width: 100%;
-    }
-
     #menu {
         display: flex;
         flex-direction: row;
@@ -182,10 +180,6 @@ footer{
         margin-right: auto;
         margin-left: auto;
         width: 960px;
-    }
-    
-    footer{
-        width: 100%;
     }
 
     #xXx{
