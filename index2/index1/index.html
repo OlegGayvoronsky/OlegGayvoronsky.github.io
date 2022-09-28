@@ -90,17 +90,17 @@
         <ol id="form_list">
               <li><label>
                 Имя:<br>
-                <input name="field-name" value="Имя">
+                <input id="fields" name="field-name" value="Имя">
               </label><br></li>
         
               <li><label>
                 e-mail:<br>
-                <input name="field-email" type="email" placeholder="Введите вашу почту">
+                <input id="fields" name="field-email" type="email" placeholder="Введите вашу почту">
               </label><br></li>
         
               <li><label>
                 дата рождения:<br>
-                <input name="field-date" value="2022-09-09" type="date">
+                <input id="fields" name="field-date" value="2022-09-09" type="date">
               </label><br></li>
         
               <li>Пол:<br>
@@ -121,7 +121,7 @@
                 
               <li><label>
                 Сверхспособности:<br>
-                <select name="power" multiple="multiple">
+                <select id="fields" name="power" multiple="multiple">
                   <option value="Значение1">Бессмертие</option>
                   <option value="Значение2">Прохождение сквозь стены</option>
                   <option value="Значение3">Левитация</option>
@@ -130,13 +130,13 @@
 
               <li><label>
                 Биография:<br>
-                <textarea name="biografy"></textarea>
+                <textarea id="fields" name="biografy"></textarea>
               </label><br></li>
 
               <li><label><input type="checkbox" name="check-1">
                 С контрактом ознакомлен(а)</label><br></li>
   
-              <li><input type="submit" value="Отправить"></li>
+              <li><input id="fields" type="submit" value="Отправить"></li>
         </ol>
       </form>
 
