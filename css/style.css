@@ -1,19 +1,15 @@
 #hat {
-    height:120px;
+    height:auto;
     background-color: #033761;
 }
 
 body {
     margin: 0%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-items: stretch;
     background-color: #0A162B;
 }
 
 #logo {
-    margin-left: 24.6%;
+    margin-left: 20.9%;
     width: 100px;
     height: 100px;
     float: left;
@@ -27,17 +23,15 @@ body {
 }
 
 #menu {
-    margin-top: 20px;
-    font-family: "Impact", Haettenschweiler;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    order: 0;
-    width: auto;
+    /* margin-top: 20px; */
     background-color: #033761;
-    height: 300px;
-    line-height: 250%;
+    font-size: 16px;
+    /* width: 956px;
+    height: 30px; */
+    /* margin-right: auto;
+    margin-left: auto; */
+    /* line-height: 250%; */
 }
 
 #menu a{
@@ -47,17 +41,20 @@ body {
 
 #links {
     margin-bottom: 0%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     list-style-type: none;
-    order: 0;
     background-color: #033761;
-    width: auto;
+    /* width: auto; */
     color: aqua;
 }
 
 ol a {
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
+    color: #F9F4CF;
+}
+
+#dd{
     color: #F9F4CF;
 }
 
@@ -71,13 +68,12 @@ ol p {
 }
 
 #table{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
-    height: 500px;
-    order: 1;
+    /* height: 200px; */
     text-align: center;
-    width: auto;
+    width: 100%;
 }
 
 .honest{
@@ -93,11 +89,10 @@ ol p {
 #form {
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
-    order: 0;
     background-color: #033761;
     color: aqua;
-    width: auto;
-    margin-top: 20px;
+    width: 100%;
+    /*margin-top: 20px; */
 }
 
 #fields{
@@ -133,60 +128,9 @@ textarea {
 }
 
 footer{
-    margin-top: 20px;
-    display: flex;
-    order: 1;
+    /* margin-top: 20px; */
     font-size: 30pt;
     background-color: #033761;
     color: #F9F4CF;
     font-family: "Courier New", monotype;
-}
-
-@media screen and (min-width: 1000px) {
-    #menu {
-        font-size: 16px;
-        display: flex;
-        flex-direction: row;
-        justify-content:space-around;
-        order: 0;
-        width: 956px;
-        height: 30px;
-        margin-right: auto;
-        margin-left: auto;
-        line-height: 250%;
-    }
-      
-    #link2{
-        margin-left: 40%;
-    }
-    
-    #link3{
-        margin-left: 44%;
-    }
-    
-    #links {
-        margin-right: auto;
-        margin-left: auto;
-        width: 916px;
-    }
-    
-    #table{
-        height: 200px;
-        order: 0;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-        width: 960px;
-    }
-    
-    #form {
-        margin-right: auto;
-        margin-left: auto;
-        width: 960px;
-    }
-
-    #fields{
-        height: auto;
-    }
-
 }
