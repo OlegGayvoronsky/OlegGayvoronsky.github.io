@@ -1,10 +1,8 @@
 #hat {
-    height:auto;
     background-color: #033761;
 }
 
 body {
-    margin: 0%;
     background-color: #0A162B;
 }
 
@@ -24,27 +22,21 @@ body {
 
 #menu {
     text-align: center;
-    /* margin-top: 20px; */
     background-color: #033761;
     font-size: 16px;
-    /* width: 956px;
-    height: 30px; */
-    /* margin-right: auto;
-    margin-left: auto; */
-    /* line-height: 250%; */
 }
 
 #menu a{
     color: #F9F4CF;
 }
 
+img{
+    width: 100%;
+}
 
 #links {
-    margin-bottom: 0%;
-    /* margin-top: 20px; */
     list-style-type: none;
     background-color: #033761;
-    /* width: auto; */
     color: aqua;
 }
 
@@ -68,12 +60,8 @@ ol p {
 }
 
 #table{
-    /* margin-top: 20px; */
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
-    /* height: 200px; */
-    text-align: center;
-    width: 100%;
 }
 
 .honest{
@@ -91,8 +79,6 @@ ol p {
     font-size: 20px;
     background-color: #033761;
     color: aqua;
-    width: 100%;
-    /*margin-top: 20px; */
 }
 
 #fields{
@@ -128,7 +114,7 @@ textarea {
 }
 
 footer{
-    /* margin-top: 20px; */
+    width: 100%;
     font-size: 30pt;
     background-color: #033761;
     color: #F9F4CF;
